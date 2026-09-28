@@ -1,0 +1,141 @@
+< !DOCTYPE html>
+    <html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>Employee Dashboard</title>
+
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+
+        <div class="dashboard">
+
+            <!-- Sidebar -->
+            <aside class="sidebar">
+
+                <h2>ELMS</h2>
+
+                <p class="system-name">
+                    Employee Leave<br>
+                    Management System
+                </p>
+
+                <nav>
+                    <a href="#" class="active">Dashboard</a>
+                    <a href="#">Apply Leave</a>
+                    <a href="#">My Requests</a>
+                    <a href="#">Leave Balance</a>
+                    <a href="#">Profile</a>
+                    <a href="index.html">Logout</a>
+                </nav>
+
+            </aside>
+
+
+            <!-- Main Content -->
+            <main class="main-content">
+
+                <div class="topbar">
+                    <div>
+                        <h1>Dashboard</h1>
+                        <p>Welcome back, Employee</p>
+                    </div>
+
+                    <div class="user-info">
+                        👤 Employee
+                    </div>
+                </div>
+
+
+                <!-- Cards -->
+                <div class="cards">
+
+                    <div class="card">
+                        <h3>Annual Leave</h3>
+                        <p class="number">18</p>
+                        <span>Days Available</span>
+                    </div>
+
+                    <div class="card">
+                        <h3>Used Leave</h3>
+                        <p class="number">7</p>
+                        <span>Days Used</span>
+                    </div>
+
+                    <div class="card">
+                        <h3>Pending Requests</h3>
+                        <p class="number">2</p>
+                        <span>Awaiting Approval</span>
+                    </div>
+
+                    <div class="card">
+                        <h3>Approved</h3>
+                        <p class="number">5</p>
+                        <span>Approved Requests</span>
+                    </div>
+
+                </div>
+
+
+                <!-- Recent Requests -->
+                <div class="section">
+
+                    <div class="section-header">
+                        <h2>Recent Leave Requests</h2>
+
+                        <button>Apply Leave</button>
+                    </div>
+
+                    <table>
+
+                        <thead>
+                            <tr>
+                                <th>Leave Type</th>
+                                <th>Start Date</th>
+                                <th>End Date</th>
+                                <th>Days</th>
+                                <th>Status</th>
+                            </tr>
+                        </thead>
+
+                        <tbody>
+
+                            <tr>
+                                <td>Annual Leave</td>
+                                <td>10/10/2026</td>
+                                <td>15/10/2026</td>
+                                <td>6</td>
+                                <td>
+                                    <span class="status approved">
+                                        Approved
+                                    </span>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>Sick Leave</td>
+                                <td>20/09/2026</td>
+                                <td>21/09/2026</td>
+                                <td>2</td>
+                                <td>
+                                    <span class="status pending">
+                                        Pending
+                                    </span>
+                                </td>
+                            </tr>
+
+                        </tbody>
+
+                    </table>
+
+                </div>
+
+            </main>
+
+        </div>
+
+    </body>
