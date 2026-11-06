@@ -66,12 +66,11 @@
             Start by registering employees in the system.
         </p>
 
-        <a href="{{ route('conference.employees.create') }}"
+        <a href="{{ route('conference.employees.index', ['openAddEmployee' => 1]) }}"
             class="btn btn-primary">
             <i class="bi bi-person-plus-fill me-1"></i>
             Add First Employee
         </a>
     </div>
 </div>
-
 @endsection
